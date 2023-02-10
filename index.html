@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bog Brokers - Vende | Compra | Gana dinero</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <!-- Load map styles -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+
+</head>
+
+<body>
+
+    <!--Header-->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-dark logo h1 align-self-center" href="index.html">
+                Bog Brokers
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nosotros"><b>Nosotros</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#categorias"><b>Categorías</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#funciona"><b>Como funciona</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto"><b>Contacto</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-success" style="border-radius: 10px;" href=""><b>WhatsApp</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Banners-->
+    <div id="banners" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid" src="img/bannerp.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="img/bannerp.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="img/bannerp.jpg" alt="">
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none" href="#banners" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none" href="#banners" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+
+    <section class="bg-success py-5" id="nosotros">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-md-8 text-white">
+                    <h1>Quienes Somos</h1>
+                    <p>
+                        Somos una alternativa comercial para todas las personas que buscan productos novedosos, o que buscan poder vender sus productos en línea de manera sencilla o que buscan generar un ingreso adicional por medio de sus redes sociales y sus contactos.
+                        <br><br>
+                        Nosotros te ayudamos a vender tus productos bien sea porque lo fabricas y/o distribuyes, o por que buscas vender algún bien que tienes para obtener una ganancia, así mismo te ayudamos a sacar provecho a tus redes sociales.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/logo.png" class="img-fluid" alt="Bog Brokers">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Categorías-->
+    <section class="container py-5" id="categorias">
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Categorías</h1>
+                <p>
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="img/productos.png" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">Productos para el hogar</h5>
+                <p class="text-center"><a class="btn btn-success">Ir al catálogo</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="img/gestion.png" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Gestión de importanciones</h2>
+                <p class="text-center"><a class="btn btn-success">Saber más</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="img/broker.png" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Soy un Bróker</h2>
+                <p class="text-center"><a class="btn btn-success">Como funciona</a></p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!--Como funciona-->
+    <section class="container py-5" id="funciona">
+        <div class="row text-center pt-5 pb-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Como funciona</h1>
+                <p>
+                    BogBrokers pone para tu conocimiento una lista de productos de varias categorías, los cuales puedes consultar haciendo <a href="" target="_blank" class="text-success"><b>click acá</b></a> y que están disponibles a la venta por parte tuya
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <div class="h1 text-success text-center"><i class="fa fa-boxes fa-lg"></i></div>
+                    <h2 class="h5 mt-4 text-center">Conoce los productos</h2>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <div class="h1 text-success text-center"><i class="fas fa-box"></i></div>
+                    <h2 class="h5 mt-4 text-center">Elige los productos</h2>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <div class="h1 text-success text-center"><i class="fa fa-people-arrows"></i></div>
+                    <h2 class="h5 mt-4 text-center">Realiza ventas</h2>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 pb-5">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <div class="h1 text-success text-center"><i class="fa fa-money-bill"></i></div>
+                    <h2 class="h5 mt-4 text-center">Obtén comisiones</h2>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <ol class="list-group list-group-numbered list-group-flush">
+          <li class="list-group-item">1. Haciendo <a href="" target="_blank" class="text-success"><b>click acá</b></a> encontrarás la lista de productos disponible para la venta.</li>
+          <li class="list-group-item">2. Cada producto tiene un código asignado, con el precio mínimo de venta requerido y la comisión que ganaras por la venta.</li>
+          <li class="list-group-item">3. Una vez tengas claro el o los productos que vas a vender, tienes que completar el formulario en la opción “Quiero vender” allí te pediremos tus datos de contacto.</li>
+          <li class="list-group-item">4. Haz la labor de venta a través del medio que quieras (Redes Sociales, amigos, familiares, páginas de comercialización de productos, etc.) y una vez hayas concretado la venta te haremos el pago de la comisión.</li>
+      </ol>
+      <br><br>
+      <h5 class="text-center">Recuerda que puedes vender el producto al precio que tú quieras, siempre y cuando no sea por debajo del mínimo establecido, si logras vender a un precio mayor al establecido la diferencia es ganancia para ti como vendedor.</h5>
+  </section>
+
+  <hr>
+
+  <!--Contacto-->
+  <div class="container-fluid py-5" id="contacto">
+    <div class="col-md-6 m-auto text-center">
+        <h1 class="h1">Contacto</h1>
+        <p>Todos los pagos se hacen directamente a Bogbrokers, luego de ello Bogbrokers pagará al dueño, al vendedor y a si mismo.</p>
+    </div>
+</div>
+
+<div id="mapid" style="width: 100%; height: 300px;"></div>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+<script>
+    var mymap = L.map('mapid').setView([-23.013104, -43.394365, 13], 13);
+
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+        maxZoom: 18,
+        attribution: 'Bog Brokers | Desarrollado por Diego Avila | Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+        '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        id: 'mapbox/streets-v11',
+        tileSize: 512,
+        zoomOffset: -1
+    }).addTo(mymap);
+
+    L.marker([-23.013104, -43.394365, 13]).addTo(mymap)
+    .bindPopup("<b>Bog</b> Brokers | Ubicación.").openPopup();
+
+    mymap.scrollWheelZoom.disable();
+    mymap.touchZoom.disable();
+</script>
+
+<!--Footer-->
+<footer class="bg-light" id="tempaltemo_footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 pt-5">
+                <img src="img/logo-m.png" width="60%">
+                <br><br>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        Aquí va la dirección
+                    </li>
+                    <li>
+                        <i class="fa fa-phone fa-fw"></i>
+                        <a class="text-decoration-none" href="">Aquí número de celular</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope fa-fw"></i>
+                        <a class="text-decoration-none" href="mailto:">Aquí el correo</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="#">Ropa deportiva</a></li>
+                    <li><a class="text-decoration-none" href="#">Zapatos</a></li>
+                    <li><a class="text-decoration-none" href="#">Juguetes</a></li>
+                    <li><a class="text-decoration-none" href="#">Vestidos</a></li>
+                    <li><a class="text-decoration-none" href="#">Accesorios para gimnasio</a></li>
+                    <li><a class="text-decoration-none" href="#">Hogar</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light">Navegación</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="index.html">Inicio</a></li>
+                    <li><a class="text-decoration-none" href="#nosotros">Nosotros</a></li>
+                    <li><a class="text-decoration-none" href="#categorias">Categorías</a></li>
+                    <li><a class="text-decoration-none" href="#funciona">Como funciona</a></li>
+                    <li><a class="text-decoration-none" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="row text-light mb-4">
+            <div class="col-12 mb-3">
+                <div class="w-100 my-3 border-top border-light"></div>
+            </div>
+            <center>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-center footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </center>
+        </div>
+    </div>
+
+    <div class="w-100 bg-black py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-12">
+                    <p class="text-center text-light">
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Desarrollado por Diego Avila
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!-- End Footer -->
+
+<!-- Start Script -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/templatemo.js"></script>
+<script src="js/custom.js"></script>
+<!-- End Script -->
+</body>
+
+</html>

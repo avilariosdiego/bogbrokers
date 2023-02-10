@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #003b73;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+
+.text-success{
+	color: #003b73 !important;
+}
+
+.bg-success {
+	color: #003b73 !important;
+}
+
+.btn-success {
+	background: #003b73 !important;
+	color: #fff !important;
+	transition: 0.5s;
+	border-color: #e9eef5 !important;
+}
+
+.btn-success:hover {
+	background: #e9eef5 !important;
+	color: #003b73 !important;
+	transition: 0.5s;
+	border-color: #003b73 !important;
+}
