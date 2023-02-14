@@ -34,7 +34,7 @@
                 Bog Brokers
             </a>
 
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -125,7 +125,9 @@
             <div class="col-12 col-md-4 p-5 mt-3">
                 <a href="#"><img src="img/broker.png" class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Soy un Bróker</h2>
-                <p class="text-center"><a href="https://whatsapp.com" target="_blank" class="btn btn-success">Quiero unirme</a></p>
+                <center>
+                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#broker">Quiero unirme</button>
+                </center>
             </div>
         </div>
     </section>
@@ -289,6 +291,32 @@
 <a href="#subir" class="subir">
     <i class="fas fa-arrow-up"></i>
 </a>
+
+<!--Modal-->
+<div class="modal fade" id="broker" tabindex="-1" aria-labelledby="brokerLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="brokerLabel">Quieres ganar dinero real con tus redes</h1>
+        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        1. Entra al perfil de Bogbrokers
+        <br><br>
+        2. Selecciona uno o varios productos de la lista
+        <br><br>
+        3. Publícalos en tus redes o promociónalos con tus contactos
+        <br><br>
+        4. Si el producto de vende por uno de tus contactos, ganaras una comisión de venta por ello
+      </div>
+      <div class="modal-footer">
+        <a href="https://whatsapp.com" target="_blank">
+            <button class="btn btn-success">Unirme</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/jquery-migrate-1.2.1.min.js"></script>
