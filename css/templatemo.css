@@ -65,7 +65,7 @@ body, ul, li, p, a, label, input, div {
 }
 #banners .carousel-control-next i,
 #banners .carousel-control-prev i {
-  color: #003b73 !important;
+  color: #fff !important;
   font-size: 2.8em !important;
 }
 /* Carousel Brand */

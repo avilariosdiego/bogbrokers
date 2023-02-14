@@ -37,3 +37,29 @@ html {
 	transition: 0.5s;
 	border-color: #003b73 !important;
 }
+
+.subir {
+  position: fixed;
+  right: 30px;
+  bottom: 28px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 35px;
+  color: #003b73;
+  background: #e9eef5;
+  line-height: 60px;
+  border-radius: 50px;
+  z-index: 999;
+  opacity: 0.8;
+	-webkit-transition: all 0.4s ease 0s !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.subir:focus, .subir:hover {
+  color: #fff;
+  background-color: #003b73 !important;
+  -webkit-transition: all 0.4s ease 0s !important;
+  transition: all 0.4s ease 0s !important;
+  opacity: 1 !important;
+}
