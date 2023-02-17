@@ -117,7 +117,7 @@
     <section class="container py-5" id="categorias">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h1">Categorías</h1>
+                <h1 class="h1">Nuestros servicios</h1>
                 <p>
                     Se parte de Bog Bróker
                 </p>
@@ -134,7 +134,9 @@
             <div class="col-12 col-md-4 p-5 mt-3">
                 <a href="#"><img src="img/productos.png" class="rounded-circle img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3">Quiero comprar</h5>
-                <p class="text-center"><a href="https://whatsapp.com" class="btn btn-success">Ir al catálogo</a></p>
+                <center>
+                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#broker2">Ir al catálogo</button>
+                </center>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
                 <a href="#"><img src="img/gestion.png" class="rounded-circle img-fluid border"></a>
@@ -301,10 +303,70 @@
 
 <!--Modal-->
 <div class="modal fade" id="broker" tabindex="-1" aria-labelledby="brokerLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="brokerLabel">Para ser un bróker debes tener en cuenta </h1>
+        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        1.  Observa todo el catálogo de productos disponibles para ti.
+        <br><br>
+        2.  Selecciona los productos que quieres vender.
+        <br><br>
+        3.  Haz clic en la opción “soy un bróker”.
+        <br><br>
+        4.  Descarga para ti las fotos disponibles junto con la descripción del producto.
+        <br><br>
+        5.  Llévalas a tus redes y publica.
+        <br><br>
+        6.  Llena el formulario de contacto.
+        <br><br>
+        7.  Vende y gana comisiones.
+        <br><br>
+        Para mas detalle, revisa nuestro procedimiento <a href="#" target="_blank">completo en este link</a> 
+      </div>
+      <div class="modal-footer">
+        <a href="https://whatsapp.com" target="_blank">
+            <button class="btn btn-success">Ir al catálogo</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Modal-->
+<div class="modal fade" id="broker2" tabindex="-1" aria-labelledby="broker2Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="broker2Label">Quiero comprar</h1>
+        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        1.  Observa todo el catálogo de productos disponibles para ti.
+        <br><br>
+        2.  Selecciona los productos que quieras y haz clic en comprar.
+        <br><br>
+        3.  Confirma los datos de entrega.
+        <br><br>
+        4.  Haz el pago y espera tu producto.
+      </div>
+      <div class="modal-footer">
+        <a href="https://whatsapp.com" target="_blank">
+            <button class="btn btn-success">Ir al catálogo</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Modal-->
+<div class="modal fade" id="broker3" tabindex="-1" aria-labelledby="broker3Label" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="brokerLabel">Quieres ganar dinero real con tus redes</h1>
+        <h1 class="modal-title fs-5" id="broker3Label">Quieres ganar dinero real con tus redes</h1>
         <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
