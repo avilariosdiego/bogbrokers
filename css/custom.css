@@ -63,3 +63,11 @@ html {
   transition: all 0.4s ease 0s !important;
   opacity: 1 !important;
 }
+
+.whatsapp {
+  color:  #25d366;
+}
+
+.whatsapp:hover {
+  color:  #003b73;
+}
